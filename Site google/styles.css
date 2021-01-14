@@ -1,0 +1,190 @@
+body{
+  margin:0px;
+  padding:0px;
+  font-family: arial, sans-serif;
+}
+
+
+
+/* header */
+
+.navbartop{
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .navbartop div a{
+  text-decoration: none;
+  color: black;
+}
+
+header .navbartop div a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+.navbartop div{
+  margin: 10px 20px 0px 0px;
+}
+
+#square img{
+  width: 22px;
+}
+
+#cercle {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: brown;
+}
+
+
+
+/* content center */
+
+.content{
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/* searchbar */
+
+.barre{
+  margin:30px auto;
+  width:475px;
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+}
+
+.barre:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.barre:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.searchbar{
+  height:45px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+}
+
+.loupe{
+  height:15px;
+  position:relative;
+  top:15px;
+  left:15px;
+}
+
+
+
+/* buttons */
+
+.button{
+  background-color: #f5f5f5;
+  border: none;
+  font-size: 15px;
+  border-radius: 6px;
+  outline: none;
+  height: 38px;
+  margin:5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.buttons .button:hover{
+  border: 1px solid #c8c8c8;
+  color:black;
+  box-shadow: 0 0 2px 0 #dcdcdc;
+}
+
+
+
+/* google disponible en */
+
+.text{
+  font-size: 13px;
+  margin-top: 20px;
+}
+.text a{
+  text-decoration: none;
+  color: darkblue;
+}
+
+.text a:hover{
+  text-decoration: underline;
+}
+
+
+
+/* footer */
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f5f5f5;
+}
+.country{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  padding-left: 38px
+}
+
+.footer .row
+{
+  padding: 5px 0px;
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
+
+.footer .row.row2
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .row.row2 ul
+{
+  display: flex;
+}
+
+.footer .row.row2 ul li
+{
+list-style: none;
+}
+
+.footer .row.row2 ul li a
+{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 25px;
+}
+
+.footer .row.row2 ul:nth-child(2) li a
+{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 35px;
+  margin-left: 25px;
+}
+
+.footer .row.row2 ul li a:hover{
+  text-decoration: underline;
+  color: gray;
+}
